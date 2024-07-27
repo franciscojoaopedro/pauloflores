@@ -1,23 +1,18 @@
-import { AlbumType } from "../../interfaces/interfaces"
+import { AlbumType } from "../../interfaces/interfaces";
 
-
-
-
-
-
-
-
-
-export const CardDiscografia=({titulo,urlcapa}:AlbumType)=>{
-
-
-
-    return(
-        <div  className="w-[466] h-[466]  flex  rounded-2xl  relative  mx-[4px]" >
-        <img width={"100%"}  src={urlcapa} />
-        <div  className="z-10 opacity-100 bg-[#FFFFFF2E] rounded-xl p-2  justify-center items-center absolute bottom-[20px] left-[25%] " >
-            <h3 className="text-white  font-bold " >{titulo}</h3>
+export const CardDiscografia = ({ titulo, urlcapa }: AlbumType) => {
+    return (
+        <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-2 sm:mx-4 lg:mx-6">
+            <div className="relative rounded-2xl overflow-hidden">
+                <img 
+                    src={urlcapa} 
+                    alt={titulo} 
+                    className="w-full h-[200px] sm:h-[250px] md:h-[300px] object-cover" 
+                />
+                <div className="absolute bottom-4 left-4 right-4 bg-[#FFFFFF2E] rounded-xl p-2 z-10 text-center">
+                    <h3 className="text-white font-bold text-sm sm:text-base md:text-lg">{titulo}</h3>
+                </div>
+            </div>
         </div>
-        </div>
-    )
-}
+    );
+};
