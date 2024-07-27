@@ -19,12 +19,12 @@ export const Header=()=>{
                         <a className="font-bold text-xl  text-white" >PAULO FLORES</a>
                     </div>
                     <div className="flex items-center p-[10px]  gap-3"  >
-                        <a  className=" font-bold  text-[14px] text-white " >AGENDA</a>
-                        <a className=" font-bold  text-[14px] text-white " >VÍDEOS</a>
-                        <a className=" font-bold  text-[14px] text-white " >DISCOGRAFIA</a>
-                        <a className=" font-bold  text-[14px] text-white " >MÚSICAS</a>
-                        <a className=" font-bold  text-[14px] text-white " >BIOGRAFIA</a>
-                        <a className=" font-bold  text-[14px] text-white " >CONTACTO</a>
+                        <a  className=" font-bold  text-[14px] text-white   hover:text-[#FF0088] cursor-pointer   " >AGENDA</a>
+                        <a className=" font-bold  text-[14px] text-white   hover:text-[#FF0088] cursor-pointer " >VÍDEOS</a>
+                        <a className=" font-bold  text-[14px] text-white   hover:text-[#FF0088] cursor-pointer " >DISCOGRAFIA</a>
+                        <a className=" font-bold  text-[14px] text-white   hover:text-[#FF0088] cursor-pointer " >MÚSICAS</a>
+                        <a className=" font-bold  text-[14px] text-white   hover:text-[#FF0088] cursor-pointer " >BIOGRAFIA</a>
+                        <a className=" font-bold  text-[14px] text-white   hover:text-[#FF0088] cursor-pointer " >CONTACTO</a>
                     </div>
                     <SocialIcons/>
                 </nav>

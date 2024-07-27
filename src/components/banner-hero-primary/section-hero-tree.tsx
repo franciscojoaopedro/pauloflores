@@ -15,7 +15,8 @@ export const BannerHeroTree = () => {
 
     return (
 
-        <section className="w-full h-[700px]  flex  justify-center  items-center " >
+        <section className="w-full h-[700px]  flex  justify-between bg-black  items-center  " >
+          
             {
                 lista.map((item,index)=>(
                     <div    key={index} className="w-[382px] h-[700px]  relative " >
@@ -28,6 +29,7 @@ export const BannerHeroTree = () => {
                 )
                 )
             }
+            
         </section>
     )
 }
