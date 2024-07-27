@@ -13,7 +13,7 @@ export default {
       },
       backgroundImage: {
         'paulo-flores02': "url('/src/assets/images/pauloflores_02.svg')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'footer-paulo-flores': "url('/src/assets/images/paulofloresfooter.svg')",
       }
     }
   },

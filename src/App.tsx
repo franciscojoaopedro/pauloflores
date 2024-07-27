@@ -6,6 +6,8 @@ import { BannerHeroTree } from './components/banner-hero-primary/section-hero-tr
 import { BannerHeroFor } from './components/banner-hero-primary/section-hero-for'
 import Novidades from './components/banner-hero-primary/section-hero-novidade'
 import Discografia from './components/discografia/dicocografia'
+import PlayerVideo from './components/videos'
+import Footer from './components/footer/footer'
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <BannerHeroFor/>
       <Novidades/>
       <Discografia/>
+      <PlayerVideo/>
+      <Footer/>
     </>
   )
 }
