@@ -13,7 +13,7 @@ export const BannerHeroFor = () => {
 
     return (
 
-        <section className="w-full h-[700px]  flex  flex-col  items-center " >
+        <section className="w-full h-[700px]  flex  flex-col  items-center  mb-[20px]  max-md:h-[auto] md:h-[auto]" >
           <div  className="w-full flex justify-center items-center" >
 
           <div className=" w-[100%] justify-center items-center flex  flex-col"   >

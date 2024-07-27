@@ -27,7 +27,7 @@ export default function Ingressos(){
 
 
     return(
-        <div className="w-[100%] flex flex-col  gap-[27px] justify-center items-center ">
+        <div className="w-[100%] flex flex-col  gap-[27px] justify-center items-center  ">
                 {
                     listaDeIngressos.map((ingresso,index)=>(<CardIngresso  key={index} {...ingresso} />))
                 }
