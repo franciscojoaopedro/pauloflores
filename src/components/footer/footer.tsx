@@ -1,4 +1,4 @@
-import React from 'react';
+
 import IconEmail from "../../assets/images/icon-email.svg";
 import IconMarketing from "../../assets/images/icon-marketing.svg";
 import ImageSony from "../../assets/images/sony.svg";
